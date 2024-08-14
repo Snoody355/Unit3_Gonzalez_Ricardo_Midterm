@@ -16,6 +16,7 @@ public class DoorAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         Vector3 targetPosition = originalPosition;
         if (isOpen)
         {
@@ -28,6 +29,7 @@ public class DoorAnimation : MonoBehaviour
     public void OpenDoor()
     {
         isOpen = true;
+        
     }
 
     public void CloseDoor()
